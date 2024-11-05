@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+<body>
+{% include nav.html %}
+<!--  Hero Section -->
+<div class="container-fluid p-0 m-0">
+    <img alt="Auto Detailing" class="img-fluid w-100" src="{{ site.baseurl }}/assets/img/hero_logo.png">
+</div>
+
+<!--Contact Us-->
+<div class="container-fluid text-center px-0">
+    <div class="container text-white text-center">
+        <div class="lh-1 text-center">
+            <h2 class="mb-4 pt-4 text-uppercase text-dark">Location</h2>
+            <div class="underline mb-4" style="width: 150px;"></div>
+
+            <div class="row px-5">
+                <!-- Left Side: Image -->
+                <div class="col-md-6 image-container">
+                    <img src="{{ site.baseurl }}/assets/img/car_wash.png" alt="Sample Image">
+                </div>
+                <!-- Right Side: Description -->
+                <div class="col-md-6 description text-dark">
+                    <h2>Description Title</h2>
+                    <p>
+                        This is a description of the image. It provides information about what is depicted in the image.
+                        You can add more text here to give details or context regarding the content of the image.
+                    </p>
+                </div>
+            </div>
+            <div class="row px-5">
+                <!-- Right Side: Description -->
+                <div class="col-md-6 description text-dark">
+                    <h2 class="text-left">Hours</h2>
+                    <div class="underline mb-4 text-left" style="width: 150px;"></div>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Open</th>
+                            <th scope="col">Closed</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Mon</td>
+                            <td>8:00 AM</td>
+                            <td>5:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Tue</td>
+                            <td>8:00 AM</td>
+                            <td>5:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Thu</td>
+                            <td>8:00 AM</td>
+                            <td>5:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Fri</td>
+                            <td>8:00 AM</td>
+                            <td>5:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sat</td>
+                            <td>8:00 AM</td>
+                            <td>5:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sun</td>
+                            <td>8:00 AM</td>
+                            <td>5:00 PM</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Left Side: Image -->
+                <div class="col-md-6 image-container">
+
+                    <img src="{{ site.baseurl }}/assets/img/spry.png" alt="Sample Image">
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!--Company Map-->
+<div class="container-fluid">
+    <div class="container">
+        <div style="width: 100%">
+            <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=ShineCraft+car+detailing,+Queens&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                <a href="https://www.gps.ie/">gps trackers</a></iframe>
+        </div>
+    </div>
+</div>
+<!--Footer-->
+{% include footer.html %}
+<script>
+
+</script>
+
+
+<main>
+    {{ content }}
+</main>
+<script src="{{ site.baseurl }}/assets/js/vendor/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+</body>
+</html>

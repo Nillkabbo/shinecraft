@@ -1,0 +1,10 @@
+url: shinecraft.github.io
+title: "Shine Craft" # the name of your site, e.g. ACME Corp.
+markdown: kramdown
+
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: _sass
+  style:    compressed
